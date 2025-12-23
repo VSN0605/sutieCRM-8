@@ -16,7 +16,7 @@ if (!\class_exists(App_KernelProdContainer::class, false)) {
 
 return new \ContainerWP8FjR0\App_KernelProdContainer([
     'container.build_hash' => 'WP8FjR0',
-    'container.build_id' => '9fd09657',
-    'container.build_time' => 1766146746,
+    'container.build_id' => '8b18db4f',
+    'container.build_time' => 1766488137,
     'container.runtime_mode' => \in_array(\PHP_SAPI, ['cli', 'phpdbg', 'embed'], true) ? 'web=0' : 'web=1',
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerWP8FjR0');

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-19 12:18:36
+/* Smarty version 4.5.3, created on 2025-12-23 11:08:34
   from 'C:\wamp64\www\suiteCRM8\public\legacy\modules\Administration\templates\RepairDatabase.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_6945429ca9f243_78795463',
+  'unifunc' => 'content_694a78329dc911_01150467',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6945429ca9f243_78795463 (Smarty_Internal_Template $_smarty_tpl) {
+function content_694a78329dc911_01150467 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <h3 class="error" style="width:100%"><?php echo $_smarty_tpl->tpl_vars['MOD']->value['LBL_REPAIR_DATABASE_DIFFERENCES'];?>
 </h3>

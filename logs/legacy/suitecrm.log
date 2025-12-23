@@ -110,3 +110,71 @@ Fri Dec 19 2025 at 12:18:58 [4288][1][FATAL] Mysqli_query failed.
 Fri Dec 19 2025 at 12:18:58 [4288][1][FATAL] Executing repair query:  Query Failed: CREATE TABLE vehicles (`vehicle_name` varchar(100)  NULL ,`vehicle_color` varchar(50)  NULL ,`vehicle_model` varchar(100)  NULL ,`vehicle_number` int(50)  NULL  , PRIMARY KEY (id)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1072: Key column 'id' doesn't exist in table
 Fri Dec 19 2025 at 12:18:58 [4288][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
 Fri Dec 19 2025 at 12:18:58 [4288][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Mon Dec 22 2025 at 06:09:17 [4288][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Mon Dec 22 2025 at 06:09:58 [4288][1][FATAL] Mysqli_query failed.
+Mon Dec 22 2025 at 06:09:58 [4288][1][FATAL] Executing repair query:  Query Failed: CREATE TABLE vehicles (`vehicle_name` varchar(100)  NULL ,`vehicle_color` varchar(50)  NULL ,`vehicle_model` varchar(100)  NULL ,`vehicle_number` int(50)  NULL  , PRIMARY KEY (id)) CHARACTER SET utf8 COLLATE utf8_general_ci: MySQL error 1072: Key column 'id' doesn't exist in table
+Mon Dec 22 2025 at 06:09:58 [4288][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Mon Dec 22 2025 at 06:09:58 [4288][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Mon Dec 22 2025 at 06:23:46 [4288][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Mon Dec 22 2025 at 07:37:26 [4288][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Mon Dec 22 2025 at 07:39:13 [4288][1][FATAL] Mysqli_query failed.
+Mon Dec 22 2025 at 07:39:13 [4288][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Mon Dec 22 2025 at 07:39:13 [4288][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Mon Dec 22 2025 at 07:39:13 [4288][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Mon Dec 22 2025 at 07:48:14 [4288][1][FATAL] [ERROR] [SearchThrowableHandler] An unknown error has occurred while performing the search.
+Mon Dec 22 2025 at 07:48:14 [4288][1][FATAL] [ERROR] [SearchThrowableHandler] Error: Failed opening required 'C:\wamp64\www\suiteCRM8\public\legacy\lib\Search\BasicSearch/../../../modules//metadata/listviewdefs.php' (include_path='C:\wamp64\www\suiteCRM8\public\legacy;C:\wamp64\www\suiteCRM8\public\legacy\include/..;.;C:\php\pear') in C:\wamp64\www\suiteCRM8\public\legacy\lib\Search\BasicSearch\BasicSearchEngine.php:116
+Stack trace:
+#0 C:\wamp64\www\suiteCRM8\public\legacy\lib\Search\BasicSearch\BasicSearchEngine.php(85): SuiteCRM\Search\BasicSearch\BasicSearchEngine->searchModules(Array, 'vehic', 40, 0)
+#1 C:\wamp64\www\suiteCRM8\public\legacy\lib\Search\SearchEngine.php(78): SuiteCRM\Search\BasicSearch\BasicSearchEngine->search(Object(SuiteCRM\Search\SearchQuery))
+#2 C:\wamp64\www\suiteCRM8\public\legacy\lib\Search\SearchWrapper.php(89): SuiteCRM\Search\SearchEngine->searchAndDisplay(Object(SuiteCRM\Search\SearchQuery))
+#3 C:\wamp64\www\suiteCRM8\public\legacy\modules\Home\Search.php(50): SuiteCRM\Search\SearchWrapper::searchAndDisplay(Object(SuiteCRM\Search\SearchQuery))
+#4 C:\wamp64\www\suiteCRM8\public\legacy\modules\Home\UnifiedSearch.php(41): require_once('C:\\wamp64\\www\\s...')
+#5 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\View\SugarView.php(800): include_once('C:\\wamp64\\www\\s...')
+#6 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\View\views\view.classic.php(72): SugarView->includeClassicFile('modules/Home/Un...')
+#7 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\View\SugarView.php(210): ViewClassic->display()
+#8 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php(443): SugarView->process()
+#9 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php(374): SugarController->processView()
+#10 C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\SugarApplication.php(101): SugarController->execute()
+#11 C:\wamp64\www\suiteCRM8\public\legacy\index.php(52): SugarApplication->execute()
+#12 {main}
+Tue Dec 23 2025 at 09:31:16 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 09:31:49 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 09:32:09 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 09:32:23 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 09:32:23 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 09:32:23 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 09:32:23 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 10:05:28 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:05:55 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:06:04 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 10:06:04 [10348][1][FATAL] Exception in Controller: Failed to copy the whole content of "C:\wamp64\www\suiteCRM8\public\legacy\modules\Administration/../../../../cache/prod\App_KernelProdContainer.php.lock" to "C:\wamp64\www\suiteCRM8\public\legacy\modules\Administration/../../../../cache/prod_694a698c543f2_deprecated\App_KernelProdContainer.php.lock" (0 of 0 bytes copied).
+Tue Dec 23 2025 at 10:06:19 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:06:41 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 10:06:41 [10348][1][FATAL] Exception in Controller: Failed to remove directory "C:\wamp64\www\suiteCRM8\public\legacy\modules\Administration/../../../../cache/prod": rmdir(C:\wamp64\www\suiteCRM8\public\legacy\modules\Administration/../../../../cache/prod): Directory not empty
+Tue Dec 23 2025 at 10:06:51 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 10:06:51 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 10:06:51 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 10:06:51 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 10:20:34 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:21:14 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 10:21:14 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 10:21:14 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 10:21:14 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 10:25:13 [10348][1][FATAL] Accounts after_save hook triggered. ID: 2f0a0a87-e042-43be-8037-9cbfbc1e6c71
+Tue Dec 23 2025 at 10:55:00 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:55:27 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 10:58:15 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 10:58:15 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 10:58:15 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 10:58:15 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 11:01:37 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 11:02:03 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 11:02:03 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 11:02:03 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 11:02:03 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 11:08:29 [10348][1][FATAL] createRelationshipMeta: Metadata for table media_objects does not exist
+Tue Dec 23 2025 at 11:13:21 [10348][1][FATAL] Mysqli_query failed.
+Tue Dec 23 2025 at 11:13:21 [10348][1][FATAL] Executing repair query:  Query Failed: ALTER TABLE vehicles   add COLUMN `vehicle_id` int(11)  NOT NULL auto_increment: MySQL error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+Tue Dec 23 2025 at 11:13:21 [10348][1][FATAL] Exception handling in C:\wamp64\www\suiteCRM8\public\legacy\include\MVC\Controller\SugarController.php:408
+Tue Dec 23 2025 at 11:13:21 [10348][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Tue Dec 23 2025 at 11:13:54 [10348][1][FATAL] Account after_delete hook trigerred. ID 2f0a0a87-e042-43be-8037-9cbfbc1e6c71

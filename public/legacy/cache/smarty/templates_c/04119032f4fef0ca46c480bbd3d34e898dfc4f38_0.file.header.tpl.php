@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-19 12:18:58
+/* Smarty version 4.5.3, created on 2025-12-23 11:13:21
   from 'C:\wamp64\www\suiteCRM8\public\legacy\themes\suite8\tpls\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_694542b26738d3_44745499',
+  'unifunc' => 'content_694a79518e0923_61454360',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:themes/suite8/tpls/_head.tpl' => 1,
   ),
 ),false)) {
-function content_694542b26738d3_44745499 (Smarty_Internal_Template $_smarty_tpl) {
+function content_694a79518e0923_61454360 (Smarty_Internal_Template $_smarty_tpl) {
 if (file_exists('custom/themes/suite8/tpls/_head.tpl')) {?>
     <?php $_smarty_tpl->_subTemplateRender("file:custom/themes/suite8/tpls/_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 } else { ?>

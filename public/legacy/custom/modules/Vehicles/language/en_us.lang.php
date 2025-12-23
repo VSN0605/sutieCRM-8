@@ -3,7 +3,7 @@
 $mod_strings = [
     'LBL_MODULE_NAME' => 'Vehicles',
     'LBL_MODULE_TITLE' => 'Vehicles',
-    'LBL_NAME' => 'NAME',
+    'LBL_NAME' => 'Name',
     'LBL_VEHICLE_NAME' => 'Vehicle Name',
     'LBL_VEHICLE_COLOR' => 'Vehicle Color',
     'LBL_VEHICLE_MODEL' => 'Vehicle Model',

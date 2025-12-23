@@ -2,7 +2,6 @@
 
 $viewdefs['Vehicles']['EditView'] = [
     'templateMeta' => [
-        // 'form' => ['buttons' => ['EDIT', 'DELETE']],
         'maxColumns' => 2,
         'widths' => [
             ['label' => '10', 'field' => '30'],

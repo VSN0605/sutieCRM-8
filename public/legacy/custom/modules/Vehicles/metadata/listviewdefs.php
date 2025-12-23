@@ -1,6 +1,6 @@
 <?php
 
-$listVieweDefs['Vehicles'] = [
+$listViewDefs['Vehicles'] = [
     'NAME' => [
         'width' => '20%',
         'label' => 'LBL_NAME',
@@ -8,7 +8,7 @@ $listVieweDefs['Vehicles'] = [
     ],
     'VEHICLE_NAME' => [
         'width' => '20%',
-        'label' => 'LBL_VEHICLE_COLOR',
+        'label' => 'LBL_VEHICLE_NAME',
         'default' => true,
     ],
     'VEHICLE_COLOR' => [

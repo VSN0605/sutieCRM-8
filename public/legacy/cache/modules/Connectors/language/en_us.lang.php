@@ -1,5 +1,5 @@
 <?php
-// created: 2025-12-19 12:21:22
+// created: 2025-12-23 11:14:00
 $mod_strings = array (
   'LBL_ADMINISTRATION_MAIN' => 'Connector Settings',
   'LBL_AVAILABLE' => 'Available',

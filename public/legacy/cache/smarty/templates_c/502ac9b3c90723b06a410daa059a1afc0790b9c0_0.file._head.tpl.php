@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-12-19 12:18:58
+/* Smarty version 4.5.3, created on 2025-12-23 11:13:21
   from 'C:\wamp64\www\suiteCRM8\public\legacy\themes\suite8\tpls\_head.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_694542b2925ab1_28601569',
+  'unifunc' => 'content_694a7951aba3c3_20861710',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694542b2925ab1_28601569 (Smarty_Internal_Template $_smarty_tpl) {
+function content_694a7951aba3c3_20861710 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\suiteCRM8\\public\\legacy\\include\\Smarty\\plugins\\function.sugar_getimagepath.php','function'=>'smarty_function_sugar_getimagepath',),1=>array('file'=>'C:\\wamp64\\www\\suiteCRM8\\public\\legacy\\include\\Smarty\\plugins\\function.sugar_getjspath.php','function'=>'smarty_function_sugar_getjspath',),));
 ?>
 <!DOCTYPE html>
